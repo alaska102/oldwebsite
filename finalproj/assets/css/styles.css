@@ -1,0 +1,173 @@
+body {
+    background-color:#FFDBDB;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-family: haboro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.logo {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+
+}
+
+
+h1 {
+    font-family: haboro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4em;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+
+}
+
+.wrapbody {
+margin-left: 100px;
+margin-top: 0px;
+}
+
+  .wrapper{
+    display: flex;
+  }
+  .wrapper .static-text{
+    color: black;
+    font-size: 60px;
+    line-height: 90px;
+    height: 90px;
+    font-weight: 400;
+  }
+  .wrapper .changing-text{
+    margin:0;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .changing-text ul{
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    animation: slide 36s steps(6) infinite;
+}
+  @keyframes slide {
+    100%{
+      top: -540px;
+    }
+  }
+  .changing-text ul span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+
+  .changing-text {
+      padding-left: 15px;
+  }
+  .changing-text ul span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 115%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #FFDBDB;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 6s steps(12) infinite;
+}
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+.line {
+    background: black;
+    width: 95%;
+    height: 4px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.background-box {
+    background: #FFF8F8;
+    width: 80%;
+    height: 550px; 
+    margin: auto;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.background-box2 {
+  background: #FFF8F8;
+  width: 80%;
+  height: 550px; 
+  margin: auto;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+
+}
+.textbox1 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: haboro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.textbox2 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: haboro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2em;
+    flex-direction: row-reverse;
+
+}
+
+.photobox {
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 40px;
+
+}
+
+.photobox2 {
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-right: 20px;
+
+}
+
