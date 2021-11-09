@@ -121,6 +121,7 @@ margin-top: 0px;
     margin-bottom: 200px;
     display: flex;
     justify-content: space-between;
+    position: static;
 
 }
 
@@ -169,5 +170,31 @@ margin-top: 0px;
   padding-top: 50px;
   padding-right: 20px;
 
+}
+
+@media only screen and (max-width: 1000px) {
+  .background-box {
+    background: #FFF8F8;
+    width: 80%;
+    height: 1500px; 
+    margin: auto;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+
+}
+
+.background-box2 {
+  background: #FFF8F8;
+  width: 80%;
+  height: 1500px; 
+  margin: auto;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+
+  }
 }
 
