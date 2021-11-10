@@ -213,15 +213,7 @@ h2 {
 }
 
 @media only screen and (max-width: 1000px) {
-  .bottom {
-    font-family: haboro, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1em;
-    text-align: center;
-    margin: 50px;
 
-  }
 .background-box {
   background-color:#FFF8F8;
   width: 80%;
@@ -301,9 +293,6 @@ h2 {
   justify-content: space-between;
 
 }
-
-}
-
 .bottom {
   font-family: haboro, sans-serif;
   font-weight: 100;
@@ -313,7 +302,6 @@ h2 {
   margin: 50px;
 
 }
-
 
 .c-background-box {
   background-color: #fff8f8;
@@ -347,7 +335,147 @@ h2 {
   object-fit: contain;
   width: 300px;
   display: block;
+}
 
+.bottom {
+  font-family: haboro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1em;
+  text-align: center;
+  margin: 50px;
+
+}
+
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  position: relative;
+
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+  margin-bottom: 70px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+
+}
+
+.project-pic {
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+
+
+
+
+.img__wrap {
+  position: relative;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color:black;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: haboro-soft, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  margin-left: 30px;
+
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.project-pic{
+  opacity: 40%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+  opacity: 1;
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+}
+
+.bottom {
+  font-family: haboro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1em;
+  text-align: center;
+  margin: 50px;
+
+}
+
+.c-background-box {
+  background-color: #fff8f8;
+  width: 80%;
+  margin: 0 auto;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-family: haboro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 2em;
+
+}
+.row {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.row a {
+  text-decoration: none;
+  color: black;
+}
+
+.c-photobox {
+  display: flex;
+}
+.c-image {
+  object-fit: contain;
+  width: 300px;
+  display: block;
+}
 
 
 .projects{
