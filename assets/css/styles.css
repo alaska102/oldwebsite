@@ -39,7 +39,7 @@ body {
   20%, 80% {
     transform: translate3d(2px, 0, 0);
   }
-
+  
   30%, 50%, 70% {
     transform: translate3d(-2px, 0, 0);
   }
@@ -158,7 +158,7 @@ margin-top: 0px;
   font-weight: 100;
   font-style: normal;
   font-size: 2em;
-
+  
 }
 
 .photobox {
@@ -188,7 +188,7 @@ margin-top: 0px;
   font-size: 2em;
   align-items: center;
 
-
+  
 }
 
 h2 {
@@ -258,7 +258,7 @@ h2 {
   font-size: 2em;
   align-items: center;
 
-
+  
 }
 
 h2 {
