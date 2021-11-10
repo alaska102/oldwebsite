@@ -302,6 +302,7 @@ h2 {
 
 }
 
+}
 
 .bottom {
   font-family: haboro, sans-serif;
@@ -312,7 +313,7 @@ h2 {
   margin: 50px;
 
 }
-}
+
 
 .c-background-box {
   background-color: #fff8f8;
@@ -346,17 +347,6 @@ h2 {
   object-fit: contain;
   width: 300px;
   display: block;
-}
-
-.bottom {
-  font-family: haboro, sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  font-size: 1em;
-  text-align: center;
-  margin: 50px;
-
-}
 
 
 
