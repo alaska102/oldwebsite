@@ -8,6 +8,7 @@ body {
     font-family: haboro, sans-serif;
     font-weight: 100;
     font-style: normal;
+    font-size: 2em;
 
 }
 
@@ -199,7 +200,18 @@ h2 {
   flex-direction: row;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 500px) {
+
+.navlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+
+}
+}
+
+@media only screen and (max-width: 1000px) {
 
 .background-box {
   background-color:#FFF8F8;
